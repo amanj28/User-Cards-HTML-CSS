@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  height: 266px;
+  padding: 20px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  box-shadow: 8px 8px 16px #c0c0c0, -8px -8px 16px #ffffff;
+}
+.user {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 365px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 8px #d0d0d0, -4px -4px 8px #ffffff;
+  border: 1px solid #b4b4b4;
+}
+.profile-image {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc; /* Placeholder for the profile image */
+  margin-right: 10px;
+  box-shadow: 4px 4px 8px #c0c0c0, -4px -4px 8px #ffffff;
+}
+.status {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.online {
+  background-color: #28a745;
+}
+.offline {
+  background-color: #dc3545;
+}
+.user-info h2 {
+  font-size: 16px;
+  margin: 0;
+}
+.user-info p {
+  font-size: 14px;
+  color: #808080;
+  margin: 0;
+}
+.message-button,
+.follow-button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.message-button {
+  background-color: #134073;
+  color: #fff;
+  box-shadow: 2px 2px 4px #c1c1c1, -2px -2px 4px #ffffff;
+}
+.follow-button {
+  background-color: #f0f0f0;
+  border: 1px solid #b2b2b2;
+  box-shadow: 2px 2px 4px #c1c1c1, -2px -2px 4px #ffffff;
+}
+.follow-button:hover {
+  background-color: #ffffff;
+}
+
